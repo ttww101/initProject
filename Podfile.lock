@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.8.1)
+  - AVOSCloud (11.5.2)
+  - AVOSCloudIM (11.5.2):
+    - AVOSCloud (= 11.5.2)
+    - AVOSCloudIM/_ARC (= 11.5.2)
+    - AVOSCloudIM/_NOARC (= 11.5.2)
+  - AVOSCloudIM/_ARC (11.5.2):
+    - AVOSCloud (= 11.5.2)
+    - AVOSCloudIM/_NOARC (= 11.5.2)
+  - AVOSCloudIM/_NOARC (11.5.2):
+    - AVOSCloud (= 11.5.2)
+  - JCore (1.2.6)
+  - JPush (3.1.2):
+    - JCore (~> 1.2.6)
+  - LeanCloud (15.0.0):
+    - LeanCloud/Foundation (= 15.0.0)
+    - LeanCloud/LocalStorage (= 15.0.0)
+    - LeanCloud/Storage (= 15.0.0)
+  - LeanCloud/Foundation (15.0.0)
+  - LeanCloud/LocalStorage (15.0.0):
+    - LeanCloud/Foundation
+  - LeanCloud/Storage (15.0.0):
+    - Alamofire (~> 4.8.0)
+    - LeanCloud/Foundation
+    - LeanCloud/LocalStorage
+
+DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudIM
+  - JPush
+  - LeanCloud
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AVOSCloud
+    - AVOSCloudIM
+    - JCore
+    - JPush
+    - LeanCloud
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AVOSCloud: b3cb1ed20d46c0d55083363522cb2ea593d51ac7
+  AVOSCloudIM: ede93dc6155c3e73524469f5098a1ec2422915ae
+  JCore: cae516dd2bf1a73b578ce6e1065abd49e709e0f7
+  JPush: d0cead70ba223a6a3b52749899ebda830dfbc49a
+  LeanCloud: 62fe4e615494425081fd719c0d56fae130f764ea
+
+PODFILE CHECKSUM: ae4c9365ef43909e191e8b07ebb1bac39e50b2ff
+
+COCOAPODS: 1.6.1
